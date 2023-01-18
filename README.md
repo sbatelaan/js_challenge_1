@@ -22,6 +22,10 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
+## Link to deployed site
+
+https://sbatelaan.github.io/js_challenge_1/
+
 
 ## Screenshots of working code
 ![Screenshot (15)](https://user-images.githubusercontent.com/119352363/213040854-9812dbf9-ce1e-4cb7-834d-89bfbb7de1dd.png)
