@@ -68,6 +68,7 @@ function generatePassword(lowerCase, upperCase, num, symbols) {
     alert('Try again')
     generatePassword()
   }
+  else {
   var password = "";
     
     var charsType = [lowerCase, upperCase, symbols, num].length;
@@ -85,7 +86,7 @@ function generatePassword(lowerCase, upperCase, num, symbols) {
     if (numbersChars) {
       password += numbersGen();
     }
-
+  }
     // I was in the process of writing out each if statement for
     //every combination and decided to check if just calling for each function would work
     //It does. Thank goodness I didnt have to write all that.
